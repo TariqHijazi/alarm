@@ -1,0 +1,78 @@
+body {
+    font-family: monaco;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    background-color: #EEE;
+}
+
+.set {
+    font-size: 35px;
+
+}
+
+#renderClock {
+    font-size: 70px;
+    margin-top: 180px;
+    margin-bottom: 170px;
+}
+
+#renderClock,
+.create-alarm {
+    text-align: center;
+}
+
+.create-alarm,
+.alarm-inputs,
+#alarms {
+
+    margin-top: 20px;
+}
+
+input {
+    font-size: 20px;
+    width: 130px;
+    height: 30px;
+}
+
+.alarm-inputs {
+    margin-bottom: 30px;
+}
+
+#alarm-text {
+    color: white;
+    margin-top: 170px;
+    padding-left: 45px;
+    padding-top: 10px;
+}
+
+#clear {
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+button,
+select {
+    font-size: 18px;
+}
+
+.imge {
+    width: 350px;
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 781px;
+    top: 0;
+    right: 0;
+}
+
+#alarms {
+    margin-top: 180px;
+    width: 300px;
+    background-color: #0e6698e8;
+    position: absolute;
+    height: 400px;
+    left: 70px;
+
+}

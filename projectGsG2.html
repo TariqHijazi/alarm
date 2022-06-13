@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/projectGsG2.css">
+    <title>Alarm clock</title>
+</head>
+
+<body>
+    <div id="renderClock"></div>
+    <div class="create-alarm">
+        <div class="set">Enter Alarm</div>
+        <form>
+            <div class="alarm-inputs">
+                <input type="number" name="hour" placeholder="Hours" min="1" max="12" required />
+                <input type="number" name="min" min="0" max="60" placeholder=" Minutes" required />
+                <input type="number" name="sec" min="0" max="60" placeholder=" Seconds" required />
+                <select name="period" required>
+                    <option value="" selected disabled>period</option>
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+            </div>
+            <button>Submit</button>
+        </form>
+
+    </div>
+    <div id="alarms">
+        <div id="alarm-text"></div>
+        <button id="clear">Clear Alarm</button>
+    </div>
+    <div class="imge"></div>
+    <audio id="alarm-audio">
+        <source src="css/as.mp3" type="audio/mp3">
+    </audio>
+    <script src="css/main.js"></script>
+</body>
+
+</html>
